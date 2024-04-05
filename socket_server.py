@@ -3,7 +3,8 @@ import urllib.parse
 import json
 from datetime import datetime
 
-UDP_IP = "127.0.0.1"
+# UDP_IP = "127.0.0.1" - якщо стартують на різних компах, вказати реальні ІР
+UDP_IP=socket.gethostname()
 UDP_PORT = 5000
 
 
